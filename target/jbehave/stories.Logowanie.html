@@ -1,0 +1,33 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/Logowanie.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">As a</span> user</div>
+<div class="element asA"><span class="keyword asA">I want to</span> perform an action</div>
+<div class="element iWantTo"><span class="keyword iWantTo">So that</span> I can achieve a business goal</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Login and password on page</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given user &lt;username&gt; with password &lt;passcode&gt; is on product page &lt;url&gt;</div>
+<div class="step">When the user clicks button Login</div>
+<div class="step">Then the page is displayed &lt;getkeyword&gt;</div>
+<table>
+<thead>
+<tr>
+<th>username</th><th>passcode</th><th>url</th><th>getkeyword</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>lucky</td><td>54321qaz</td><td>http://the-internet.herokuapp.com/login</td><td>Your username is invalid!</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {username=lucky, passcode=54321qaz, url=http://the-internet.herokuapp.com/login, getkeyword=Your username is invalid!}</h3>
+<div class="step successful">Given user <span class="step parameter">lucky</span> with password <span class="step parameter">54321qaz</span> is on product page <span class="step parameter">http://the-internet.herokuapp.com/login</span></div>
+<div class="step successful">When the user clicks button Login</div>
+<div class="step successful">Then the page is displayed <span class="step parameter">Your username is invalid!</span></div>
+</div>
+</div>
+</div>

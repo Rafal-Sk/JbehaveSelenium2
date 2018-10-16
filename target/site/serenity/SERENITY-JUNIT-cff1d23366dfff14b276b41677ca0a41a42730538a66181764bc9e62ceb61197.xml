@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="" skipped="0" tests="1" time="0.01" timestamp="2018-04-18 03:48:59"><testcase name="After stories"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+testqaselenbehave.de.Logowanie.afterScenario(Logowanie.java:55)&#13;
+</system-err></testcase></testsuite>

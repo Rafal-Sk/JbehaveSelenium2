@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Wed Apr 18 16:42:27 CEST 2018
+threads=1
+total=26000
+stories/Logowanie.story=26000
+threadAverage=26000
